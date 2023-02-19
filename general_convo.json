@@ -1,0 +1,135 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?",
+        "I don't feel happy",
+        "Uplift my mood",
+        "I feel sad",
+        "Lift my spirits"
+      ],
+      "responses": [
+        "Here's a joke for you - Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "Here's a joke for you - What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "Panic disorder",
+      "patterns": ["Anxiety and nervousness",
+      "I'm feeling nervous and anxious",
+      "I'm feeling anxious",
+      "I'm scared",
+      "I want to check symptoms for Anxiety, nervousness, dizziness",
+      "Coughing, sweating, breathless"],
+      "responses": ["You seem to be having a panic attack. Do not fight it. Stay where you are, if possible. Breathe slowly and deeply. Focus on positive, peaceful and relaxing images."]
+
+    },
+    {"tag": "Cardiac arrest",
+    "patterns": ["Sharp chest pain","Increased heart rate","Difficulty in breathing","Increased heart rate","Call a cardiologist"],
+    "responses": ["Chew and swallow an aspirin, unless you are allergic to aspirin or have been told by your doctor never to take aspirin. Cardiologists nearby : https://bit.ly/cardiologists_nearby , A hospital near you : http://pulsecardiologygroup.co.uk/sussex-cardiovascular-clinic/"]
+   },
+   {
+    "tag": "Glaucoma",
+    "patterns":["Do I have glaucoma?","Diminished vision","Pain in the eye","I see spots or clouds in vision","spots or clouds in vision"],
+    "responses":["Consult an opthalmologist nearby. Follow this link to book an appointment - https://bit.ly/opthalmologists_nearby"]
+   },
+   {
+    "tag": "Eating disorder",
+    "patterns":["Depression, anxiety and nervousness, depressive or psychotic symptoms","Decreased appetite","Abusing alcohol","Excessive eating"],
+    "responses":["Eating disorder treatment depends on your particular disorder and your symptoms. It typically includes a combination of psychological therapy (psychotherapy), nutrition education, medical monitoring and sometimes medications. Search for a mental health professional or a registered dietician nearby - https://bit.ly/psychologists_nearby"]
+   },
+   {
+    "tag":"Liver cancer",
+    "patterns":["sharp abdominal pain","upper abdominal pain","changes in the appearance of stool","Decreased appetite","unusual color or odour to urine","painful urination"],
+    "responses":["Consult a hepatologist or a urologist nearby - https://bit.ly/urologists_nearby"]
+   },
+   {
+    "tag":"Asthma",
+    "patterns":["coughing,wheezing","chest tightness","trouble sleeping due to shortness of breath","breathlessness","can't sleep due to breathlessness"],
+    "responses":["Find best pulmonologists nearby. Book an appointment now - https://bit.ly/pulmonologists_nearby"]
+   },
+   {
+    "tag":"Dengue fever",
+    "patterns":["I have a very high fever","high fever","why do I have very high fever?","Very high body temperature","lower platelet count"],
+    "responses":["Have a paracetamol to reduce the temperature. Drink lots of water, keep yourself hydrated. Find the best general physicians nearby - https://bit.ly/pcp_nearby"]
+   },
+   {
+    "tag":"Obesity",
+    "patterns":["How do I know if I'm obese?","Am I obsese?","BMI calculator","Get rid of obesity","How do I get rid of obesity?"],
+    "responses":["Check your BMI here to know if you're really obese- https://patient.info/doctor/bmi-calculator-calculator. If you're obese or extremely obese, consider consulting a dietician nearby. Find dieticians/nutritionists nearby - https://bit.ly/diet_care"]
+   },
+   {
+    "tag":"Vitamin deficiency",
+    "patterns":["pale skin","muscle weakness","I feel very sleepy","I feel exhausted","tired","Forgetfulness"],
+    "responses":["Eat healthy and organic foods. Practise yoga everyday. Include fruits and green vegetables in your diet. Consult a dietician for advice - https://bit.ly/diet_care "]
+   },
+   {
+    "tag":"Diabetes",
+    "patterns":["Frequent urination","why do I pee after every 10 minutes?","Why do I feel so hungry?","feel very tired","sudden weight loss"],
+    "responses":["Take care of your diet. Consult a dietician/nutritionist nearby - https://bit.ly/diet_care . Also, consider getting yourself tested for diabetes soon. "]
+   },
+   {
+    "tag": "Loss of apetite",
+    "patterns":["Loss of apetite","I don't feel like eating","unable to eat","less apetite","my apetite has decreased recently"],
+    "responses":["Eat small meals regularly throughout the day. Talk to a nutritionist about your eating habits if they’re irregular - https://bit.ly/diet_care"]
+   },
+   {
+    "tag": "Fatty liver",
+    "patterns":["I have been diagnosed with fatty liver","I have fatty liver","An increased build-up of fat in the liver","increased levels of aminotransferase (ALT) and aspartate aminotransferase (AST)"],
+    "responses": ["To treat it at home, include more fruits and vegetables in your diet","significantly reducing intake of certain foods and beverages including those high in added sugar, salt, refined carbohydrates, and saturated fat will help","Your daily cup of coffee could help protect your liver against NAFLD."]
+   },
+   {
+    "tag": "Joint pain",
+    "patterns":["joint pain","I have pain in my joints","body ache","joint pain"],
+    "responses":["For moderate-to-severe joint pain with swelling, an over-the-counter or prescription nonsteroidal anti-inflammatory drug (NSAID) such as aspirin, celecoxib, ibuprofen, or naproxen can provide relief. NSAIDs can have side effects, potentially increasing your risk for gastrointestinal bleeding.If you have mild pain without any swelling, acetaminophen can be effective. Be careful when taking this medicine though, especially if you drink alcohol, because high doses may cause liver damage. Because of the risks, you should take any of these pain medications with caution."]
+   },
+   {
+    "tag":"Tooth ache",
+    "patterns":["Tooth ache","tooth decay","cavity","bad breath","mouth smell","tooth cavity"],
+    "responses":["Salt water gargles will help soothe the pain. Book an appointment with a nearby dentist - https://bit.ly/dentists_visit"]
+   },
+   {"tag":"Find doctors",
+   "patterns":["find doctors","find clinics","search doctors","search clinics","look up for doctors","search hospitals"],
+   "responses":["Websites to find nearest hospitals include : Zocdoc - https://www.zocdoc.com/ , Healthgrades - https://www.healthgrades.com/ , WebMD - https://www.webmd.com/ , Yelp - https://www.yelp.com/ , Google Maps - https://www.google.com/maps/"]
+  },
+  {
+    "tag":"diagnostic centers",
+    "patterns":["diagnostic centers","test centers","check up"],
+    "responses":["Websites to find diagnostic centres nearby : BMI Healthcare - https://www.bmihealthcare.co.uk/ , Nuffield Health - https://www.nuffieldhealth.com/ , The London Clinic - https://www.thelondonclinic.co.uk/ , Spire Healthcare - https://www.spirehealthcare.com/ , Medicspot - https://www.medicspot.co.uk/"]
+  }
+  ]
+}
